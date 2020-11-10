@@ -36,12 +36,16 @@ function App() {
           <SideBar></SideBar>
         </Grid>
         <Grid className={classes.body} item sm={9}>
+          <div id="experience"></div>
           <Experince></Experince>
-          <Divider className={classes.divider} variant="fullWidth" />
+          <div id="education"><Divider className={classes.divider} variant="fullWidth" /></div>
+          
           <Education></Education>
-          <Divider className={classes.divider} variant="fullWidth"/>
+          <div id="skill"><Divider className={classes.divider} variant="fullWidth"/></div>
+          
           <Skill></Skill>
-          <Divider className={classes.divider} variant="fullWidth"/>
+          <div id="project"><Divider className={classes.divider} variant="fullWidth"/></div>
+          
           <Project></Project>
         </Grid>
       </Grid>

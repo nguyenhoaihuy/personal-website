@@ -32,17 +32,23 @@ const useStyles = makeStyles((theme) => ({
         },
     }
 }));
-  
+
+
+
 function SideBar() {
     const classes = useStyles();
+    function onclickHandle(id){
+        var element =document.getElementById(id);
+        element.scrollIntoView({behavior: 'smooth'});
+    }
     return (
       <div className={classes.root}>  
         <Avatar src="https://ca.slack-edge.com/T010MBR22KU-U019QV28AD8-b9e116383a90-512" className={classes.large}></Avatar>
         <MenuList>
-            <MenuItem className={classes.menuitem}>EXPERIENCE</MenuItem>
-            <MenuItem className={classes.menuitem}>EDUCATION</MenuItem>
-            <MenuItem className={classes.menuitem}>SKILL</MenuItem>
-            <MenuItem className={classes.menuitem}>PROJECTS</MenuItem>
+            <MenuItem onClick={()=>onclickHandle("experience")} className={classes.menuitem}>EXPERIENCE</MenuItem>
+            <MenuItem onClick={()=>onclickHandle("education")} className={classes.menuitem}>EDUCATION</MenuItem>
+            <MenuItem onClick={()=>onclickHandle("skill")} className={classes.menuitem}>SKILL</MenuItem>
+            <MenuItem onClick={()=>onclickHandle("project")} className={classes.menuitem}>PROJECTS</MenuItem>
         </MenuList>
       </div>
     );
