@@ -47,15 +47,15 @@ function Experience() {
                     <ListItemText
                     primary={
                         <div>
-                            <h3 className={classes.position}>Brunch this weekend?</h3>
-                            <label className={classes.date}>Hello</label>
+                            <h3 className={classes.position}>Website Developer at UCLA</h3>
+                            <label className={classes.date}>Since 10/2019</label>
                         </div>
                     }
                     secondary={
                         <List className={classes.description}>
-                            <ListItem>Single-line item</ListItem>
-                            <ListItem>Single-line item</ListItem>
-                            <ListItem>Single-line item</ListItem>
+                            <ListItem>Created Customer Relationship Management tool using PHP, JavaScript, and MySQL to automate process for over 3000 contributors to input data using HashMap data structure</ListItem>
+                            <ListItem>Deployed websites on cloud AWS using Docker and Kubernetes</ListItem>
+                            <ListItem>Maintained and improved performance of existing websites</ListItem>
                         </List>
                     }
                     />
@@ -67,15 +67,32 @@ function Experience() {
                     <ListItemText
                     primary={
                         <div>
-                            <h3 className={classes.position}>Brunch this weekend?</h3>
-                            <label className={classes.date}>Hello</label>
+                            <h3 className={classes.position}>Web Development Intern at Purk</h3>
+                            <label className={classes.date}>10/2018 - 5/2019</label>
                         </div>
                     }
                     secondary={
                         <List className={classes.description}>
-                            <ListItem>Single-line item</ListItem>
-                            <ListItem>Single-line item</ListItem>
-                            <ListItem>Single-line item</ListItem>
+                            <ListItem>Developed navigation system to closest available parking spots applying Dijkstra's algorithm using React for front-end, and Firebase for backend</ListItem>
+                        </List>
+                    }
+                    />
+                </ListItem>
+                <ListItem alignItems="flex-start">
+                    <ListItemAvatar>
+                        <Avatar className={classes.expAva} alt="UCLA" src="https://pbs.twimg.com/profile_images/1017178471213068289/gxAdnKeD_400x400.jpg" />
+                    </ListItemAvatar>
+                    <ListItemText
+                    primary={
+                        <div>
+                            <h3 className={classes.position}>Reach Intern at Cyber Defenders</h3>
+                            <label className={classes.date}>6/2018 - 8/2018</label>
+                        </div>
+                    }
+                    secondary={
+                        <List className={classes.description}>
+                            <ListItem>Processed 18 malware datasets using Python open source libraries: NumPy. Pandas, Mathplotlob</ListItem>
+                            <ListItem>Utilized TensorFlow framework to improve classification of furture malwares</ListItem>
                         </List>
                     }
                     />

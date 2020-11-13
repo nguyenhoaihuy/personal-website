@@ -56,36 +56,55 @@ function Skill() {
             />
         </div>
         <div className={classes.root}>
-            <h3>Tools</h3>
+            <h3>Database Systems</h3>
             <Chip
-                label="Primary clickable"
+                label="MySQL"
                 clickable
                 color="primary"
             />
             <Chip
-                label="Primary clickable"
+                label="MongoDB"
                 clickable
                 color="primary"
             />
             <Chip
-                label="Primary clickable"
+                label="Firebase"
                 clickable
                 color="primary"
             />
         </div>
         <div className={classes.root}>
+            <h3>Tools</h3>
             <Chip
-                label="Primary clickable"
+                label="Git/GitHub"
                 clickable
                 color="primary"
             />
             <Chip
-                label="Primary clickable"
+                label="Docker"
                 clickable
                 color="primary"
             />
             <Chip
-                label="Primary clickable"
+                label="Emacs"
+                clickable
+                color="primary"
+            />
+        </div>
+        <div className={classes.root}>
+            <h3>Frameworks</h3>
+            <Chip
+                label="React"
+                clickable
+                color="primary"
+            />
+            <Chip
+                label="Express"
+                clickable
+                color="primary"
+            />
+            <Chip
+                label="WordPress"
                 clickable
                 color="primary"
             />

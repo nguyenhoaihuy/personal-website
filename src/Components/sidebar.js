@@ -48,7 +48,7 @@ function SideBar() {
             <MenuItem onClick={()=>onclickHandle("experience")} className={classes.menuitem}>EXPERIENCE</MenuItem>
             <MenuItem onClick={()=>onclickHandle("education")} className={classes.menuitem}>EDUCATION</MenuItem>
             <MenuItem onClick={()=>onclickHandle("skill")} className={classes.menuitem}>SKILL</MenuItem>
-            <MenuItem onClick={()=>onclickHandle("project")} className={classes.menuitem}>PROJECTS</MenuItem>
+            <MenuItem onClick={()=>onclickHandle("project")} className={classes.menuitem}>PROJECT</MenuItem>
         </MenuList>
       </div>
     );
