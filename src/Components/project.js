@@ -63,7 +63,7 @@ function Project() {
                             Hand Gesture recognition
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                            Hand Signs Recognition contains a tool to captures data from the machine's camera and model trained by the data. The model can guesses the shape of hand with more than 92% accuracy.
+                            Hand Signs Recognition contains a tool to captures data from the machine's camera and model trained by the data.
                             </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -114,7 +114,7 @@ function Project() {
                             Temperature Logger
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                            This project is about getting to know how TCP and TLS protocols work. By working with BeagleBone Green Kit, we understand how IOT interact with each other.
+                            Programmed BeagleBone Green Kit to read temperature sensor and store data in remote server via TCP and TLS protocols
                             </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -190,7 +190,7 @@ function Project() {
                             RSLK Line Follower
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                
+                            Programmed TI-RSLK robot to follow various paths and improved the speed to 2ft/s by applying PID Algorithm (C++, Energia IDE)
                             </Typography>
                             </CardContent>
                         </CardActionArea>

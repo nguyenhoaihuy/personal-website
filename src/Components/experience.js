@@ -62,7 +62,7 @@ function Experience() {
                 </ListItem>
                 <ListItem alignItems="flex-start">
                     <ListItemAvatar>
-                        <Avatar className={classes.expAva} alt="PURK" src="%PUBLIC_URL%/purk.png" />
+                        <Avatar className={classes.expAva} alt="PURK" src={process.env.PUBLIC_URL + "/purk.png"} />
                     </ListItemAvatar>
                     <ListItemText
                     primary={
